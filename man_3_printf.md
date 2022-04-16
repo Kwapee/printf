@@ -3,13 +3,13 @@
 % April 2022
 
 # NAME
- print \- format and print data
+**print** \- format and print data
 
 # SYPNOPSIS
 **print** FORMAT [ARGUMENT]...
 
 # DESCRIPTION
-**Print**
+**print**
  A custom function that prints arguments(s) according to the format.
 
 # USAGE

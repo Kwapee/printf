@@ -1,7 +1,9 @@
-printf
+.SH printf
+.PP
 _printf is a simple custom printf function that formats and prints data to the standard output.
 
-Description
+.SH Description
+.PP 
 _printf() functiion formats and prints data to the standard output according to the format specified.
 
 The function has the following conversion specifies:
@@ -20,20 +22,29 @@ The function has the following conversion specifies:
 %R - prints string in ROT13 encoding
 %p - print pointer addresses
 ' ' - print a space
-- modifier for unsigned conversions
+-: modifier for unsigned conversions
 +: prints a plus sign in front of the number
-Installation
+
+.SH Installation
+.PP
 you can clone this repository and use the function on your local machine.
 
 git clone https://github.com/Kwapee/printf.git
-Adding man_3_prinf to you mandb
+
+.SH Adding man_3_prinf to you mandb
+.PP
 To add the man_3_prinf page to your mandb run this script
 
 sudo ./install
-Usage
-include the main.h header file on the function for using _printf().
-All the files are to be compiled on Ubuntu 14.04 LTS
-Compile your code with `gcc -Wall -Werror -Wextra -pedantic *.c`
+
+.SH Usage
+.PP
++ include the main.h header file on the function for using _printf().
++ All the files are to be compiled on Ubuntu 20.04 LTS
+
+
+# Compile your code with 'gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c'
+
 #include <stdio.h>
 #include "main.h"
 
@@ -48,5 +59,6 @@ int main(void)
     return 0;
 }
 
-Copyright
+.SH Copyright
+.PP
 Copyright (c) 2022 Amoako Perry & Nii Tetteh Odoi

@@ -25,4 +25,3 @@ char *fill_long_oct_array(char *bnr, char *oct)
 	}
 	return (oct);
 }
-
